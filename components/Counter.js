@@ -18,10 +18,10 @@ function Counter({ incrementBy, bgColor }) {
 
   return (
     <div className="flex flex-col items-center" style={{ backgroundColor: bgColor, padding: "10px", borderRadius: "5px", margin: "10px" }}>
-      <h1>Counter: {count}</h1>
+      <h1 className="text-black">Counter: {count}</h1>
       <div className="mt-4">
-        <button onClick={increment} style={{ marginRight: "10px" }}>Increment by {incrementBy}</button>
-        <button onClick={decrement}>Decrement by {incrementBy}</button>
+        <button className="text-black" onClick={increment} style={{ marginRight: "10px" }}>Increment by {incrementBy}</button>
+        <button className="text-black" onClick={decrement}>Decrement by {incrementBy}</button>
       </div>
     </div>
   );

@@ -19,7 +19,7 @@ const SearchBar = () => {
 
   return (
     <div>
-      <input
+      <input className='text-black'
         type="text"
         placeholder="Search for a product"
         value={searchTerm}
